@@ -1,4 +1,4 @@
-This folder contains some projects developed by my fellow university students and I. Some of them will require internet connection to download data (but do not worry, those are safe). Most of them have their reports in English, but some are in Spanish or Catalan.
+This repository contains some projects developed by my fellow university students and I. Some of them will require internet connection to download data (but do not worry, those are safe). Most of them have their reports in English, but some are in Spanish or Catalan.
 
 The projects have been distributed on three general topics:
 
@@ -26,6 +26,6 @@ Here is a brief explanation of each project:
 
 -   [Machine Learning for Binary Classifications](./Machine%20learning/Machine%20Learning%20for%20Binary%20Classifications/) contains a Python Notebook with an a wide variety of shallow algorithms for binary classification. The goal was to properly classify liver patients by using some other variables, with a little data set to use. I've also handed the pdf report and the necessary data.
 
-Feel free to contact me for any extra information. You can freely read and execute the provided documents.
+Feel free to contact me for any extra information. You can freely read and execute the provided files.
 
 -- Angel Morales Cirera ([angelmoralescirera\@proton.me](mailto:angelmoralescirera@proton.me))
