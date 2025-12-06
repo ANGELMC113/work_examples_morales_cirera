@@ -1,0 +1,114 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - BT-MZ Benchmark
+
+ Reading from input file inputbt-mz.data
+ Number of zones:  32 x  32
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   0.000020
+ Number of active processes:    112
+
+ Use the default load factors
+ Total number of threads:    112  (  1.0 threads/process)
+
+ Calculated speedup =    110.19
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ NITER does not match the reference value of   250
+ Comparison of RMS-norms of residual
+ FAILURE:  1 0.1300975028090E+08 0.4250417034981E+08 0.6939182632239E+00
+ FAILURE:  2 0.1195579739543E+07 0.4293882192175E+07 0.7215620536303E+00
+ FAILURE:  3 0.2655507674355E+07 0.9121841878270E+07 0.7088847066423E+00
+ FAILURE:  4 0.1763709229288E+07 0.6201357771439E+07 0.7155930532809E+00
+ FAILURE:  5 0.1123579323799E+08 0.3474801891304E+08 0.6766493863692E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1 0.7163608337245E+06 0.9462418484583E+06 0.2429410780218E+00
+ FAILURE:  2 0.5733231965164E+05 0.7884728947105E+05 0.2728688578104E+00
+ FAILURE:  3 0.1431868772065E+06 0.1902874461259E+06 0.2475232595652E+00
+ FAILURE:  4 0.1024350824666E+06 0.1361858029909E+06 0.2478284797909E+00
+ FAILURE:  5 0.7917941804863E+06 0.9816489456253E+06 0.1934039311966E+00
+ Verification failed
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     1000
+ Time in seconds =                   383.35
+ Total processes =                      112
+ Total threads   =                      112
+ Mop/s total     =                537341.35
+ Mop/s/thread    =                  4797.69
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

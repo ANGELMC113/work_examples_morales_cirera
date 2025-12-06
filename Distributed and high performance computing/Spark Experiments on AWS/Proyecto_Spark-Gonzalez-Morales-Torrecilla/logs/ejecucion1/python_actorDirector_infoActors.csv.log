@@ -1,0 +1,24 @@
+[('Hugues Le Bars', 'Olivier Jean-Marie', 461, 7.23644251626898, 6.1, 8.8), ('Don Messick', 'Joseph Barbera', 440, 6.677272727272726, 3.7, 8.9), ('Don Messick', 'William Hanna', 438, 6.674657534246574, 3.7, 8.9), ('Rob Dyrdek', 'Michael Simon', 426, 7.439906103286379, 5.5, 8.5), ('Daws Butler', 'Joseph Barbera', 361, 6.498891966758998, 4.2, 8.7), ('Dan Castellaneta', 'Mike B. Anderson', 360, 6.649999999999999, 4.0, 9.2), ('Daws Butler', 'William Hanna', 340, 6.439999999999996, 4.2, 8.7), ('Ayaz Ahmed', 'Anmol Mahajan', 337, 9.70148367952523, 8.5, 10.0), ('Ayaz Ahmed', 'Ashima Chibber', 337, 9.70148367952523, 8.5, 10.0), ('Mel Blanc', 'Chuck Jones', 332, 6.92801204819277, 4.5, 8.6), ('Mel Blanc', 'Friz Freleng', 317, 6.862460567823343, 4.9, 8.3), ('Dishank Arora', 'Anmol Mahajan', 317, 9.700315457413257, 8.5, 10.0), ('Dishank Arora', 'Ashima Chibber', 317, 9.700315457413257, 8.5, 10.0), ('Mehmet Akan', 'Yalçin Yelence', 302, 7.0039735099337666, 5.7, 7.9), ('Mel Blanc', 'Joseph Barbera', 296, 6.602027027027028, 1.0, 8.9), ('Mel Blanc', 'William Hanna', 293, 6.5918088737201375, 1.0, 8.9), ('Scott Grimes', 'Ron Hughart', 293, 7.2600682593856645, 3.9, 8.8), ('Seth MacFarlane', 'Ron Hughart', 291, 7.26254295532646, 3.9, 8.8), ('Jack Mercer', 'Seymour Kneitel', 287, 6.218815331010452, 3.9, 7.7), ('Jonathan Frid', 'Lela Swift', 272, 7.480514705882349, 6.6, 8.3)]
+	Command being timed: "python3 python_actorDirector.py infoActors.csv"
+	User time (seconds): 12.44
+	System time (seconds): 0.46
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 731832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 191667
+	Voluntary context switches: 1
+	Involuntary context switches: 58
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

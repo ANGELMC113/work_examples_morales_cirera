@@ -1,0 +1,246 @@
+25/05/22 10:34:33 INFO SparkContext: Running Spark version 3.5.5
+25/05/22 10:34:33 INFO SparkContext: OS info Linux, 6.8.0-1029-aws, amd64
+25/05/22 10:34:33 INFO SparkContext: Java version 1.8.0_452
+25/05/22 10:34:33 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/05/22 10:34:33 INFO ResourceUtils: ==============================================================
+25/05/22 10:34:33 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/05/22 10:34:33 INFO ResourceUtils: ==============================================================
+25/05/22 10:34:33 INFO SparkContext: Submitted application: actorDirector
+25/05/22 10:34:33 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/05/22 10:34:33 INFO ResourceProfile: Limiting resource is cpu
+25/05/22 10:34:33 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/05/22 10:34:33 INFO SecurityManager: Changing view acls to: ubuntu
+25/05/22 10:34:33 INFO SecurityManager: Changing modify acls to: ubuntu
+25/05/22 10:34:33 INFO SecurityManager: Changing view acls groups to: 
+25/05/22 10:34:33 INFO SecurityManager: Changing modify acls groups to: 
+25/05/22 10:34:33 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ubuntu; groups with view permissions: EMPTY; users with modify permissions: ubuntu; groups with modify permissions: EMPTY
+25/05/22 10:34:34 INFO Utils: Successfully started service 'sparkDriver' on port 36317.
+25/05/22 10:34:34 INFO SparkEnv: Registering MapOutputTracker
+25/05/22 10:34:34 INFO SparkEnv: Registering BlockManagerMaster
+25/05/22 10:34:34 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/05/22 10:34:34 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/05/22 10:34:34 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/05/22 10:34:34 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-e35769e1-81c3-4f46-b7c9-5381bf8259d5
+25/05/22 10:34:34 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+25/05/22 10:34:34 INFO SparkEnv: Registering OutputCommitCoordinator
+25/05/22 10:34:34 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/05/22 10:34:34 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://ip-172-31-28-10.ec2.internal:7077...
+25/05/22 10:34:35 INFO TransportClientFactory: Successfully created connection to ip-172-31-28-10.ec2.internal/172.31.28.10:7077 after 55 ms (0 ms spent in bootstraps)
+25/05/22 10:34:35 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250522103435-0013
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250522103435-0013/0 on worker-20250522092159-172.31.31.108-43363 (172.31.31.108:43363) with 2 core(s)
+25/05/22 10:34:35 INFO StandaloneSchedulerBackend: Granted executor ID app-20250522103435-0013/0 on hostPort 172.31.31.108:43363 with 2 core(s), 1024.0 MiB RAM
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250522103435-0013/1 on worker-20250522092159-172.31.28.10-36043 (172.31.28.10:36043) with 2 core(s)
+25/05/22 10:34:35 INFO StandaloneSchedulerBackend: Granted executor ID app-20250522103435-0013/1 on hostPort 172.31.28.10:36043 with 2 core(s), 1024.0 MiB RAM
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250522103435-0013/2 on worker-20250522092159-172.31.25.204-39765 (172.31.25.204:39765) with 2 core(s)
+25/05/22 10:34:35 INFO StandaloneSchedulerBackend: Granted executor ID app-20250522103435-0013/2 on hostPort 172.31.25.204:39765 with 2 core(s), 1024.0 MiB RAM
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250522103435-0013/3 on worker-20250522092159-172.31.22.111-45207 (172.31.22.111:45207) with 2 core(s)
+25/05/22 10:34:35 INFO StandaloneSchedulerBackend: Granted executor ID app-20250522103435-0013/3 on hostPort 172.31.22.111:45207 with 2 core(s), 1024.0 MiB RAM
+25/05/22 10:34:35 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43131.
+25/05/22 10:34:35 INFO NettyBlockTransferService: Server created on ip-172-31-28-10.ec2.internal:43131
+25/05/22 10:34:35 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/05/22 10:34:35 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, ip-172-31-28-10.ec2.internal, 43131, None)
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250522103435-0013/2 is now RUNNING
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250522103435-0013/0 is now RUNNING
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250522103435-0013/3 is now RUNNING
+25/05/22 10:34:35 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250522103435-0013/1 is now RUNNING
+25/05/22 10:34:35 INFO BlockManagerMasterEndpoint: Registering block manager ip-172-31-28-10.ec2.internal:43131 with 366.3 MiB RAM, BlockManagerId(driver, ip-172-31-28-10.ec2.internal, 43131, None)
+25/05/22 10:34:35 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, ip-172-31-28-10.ec2.internal, 43131, None)
+25/05/22 10:34:35 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, ip-172-31-28-10.ec2.internal, 43131, None)
+25/05/22 10:34:36 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+25/05/22 10:34:37 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 358.0 KiB, free 366.0 MiB)
+25/05/22 10:34:37 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.5 KiB, free 365.9 MiB)
+25/05/22 10:34:37 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on ip-172-31-28-10.ec2.internal:43131 (size: 32.5 KiB, free: 366.3 MiB)
+25/05/22 10:34:37 INFO SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+25/05/22 10:34:38 INFO FileInputFormat: Total input files to process : 1
+25/05/22 10:34:38 INFO SparkContext: Starting job: runJob at PythonRDD.scala:181
+25/05/22 10:34:38 INFO DAGScheduler: Got job 0 (runJob at PythonRDD.scala:181) with 1 output partitions
+25/05/22 10:34:38 INFO DAGScheduler: Final stage: ResultStage 0 (runJob at PythonRDD.scala:181)
+25/05/22 10:34:38 INFO DAGScheduler: Parents of final stage: List()
+25/05/22 10:34:38 INFO DAGScheduler: Missing parents: List()
+25/05/22 10:34:38 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[2] at RDD at PythonRDD.scala:53), which has no missing parents
+25/05/22 10:34:39 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.22.111:47732) with ID 3,  ResourceProfileId 0
+25/05/22 10:34:39 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.31.108:48348) with ID 0,  ResourceProfileId 0
+25/05/22 10:34:39 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.25.204:57772) with ID 2,  ResourceProfileId 0
+25/05/22 10:34:39 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 7.9 KiB, free 365.9 MiB)
+25/05/22 10:34:39 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 365.9 MiB)
+25/05/22 10:34:39 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on ip-172-31-28-10.ec2.internal:43131 (size: 5.0 KiB, free: 366.3 MiB)
+25/05/22 10:34:39 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+25/05/22 10:34:39 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (PythonRDD[2] at RDD at PythonRDD.scala:53) (first 15 tasks are for partitions Vector(0))
+25/05/22 10:34:39 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+25/05/22 10:34:39 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.22.111:46579 with 366.3 MiB RAM, BlockManagerId(3, 172.31.22.111, 46579, None)
+25/05/22 10:34:39 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.31.108:40461 with 366.3 MiB RAM, BlockManagerId(0, 172.31.31.108, 40461, None)
+25/05/22 10:34:39 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.25.204:44647 with 366.3 MiB RAM, BlockManagerId(2, 172.31.25.204, 44647, None)
+25/05/22 10:34:39 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.31.31.108, executor 0, partition 0, PROCESS_LOCAL, 9053 bytes) 
+25/05/22 10:34:39 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 172.31.31.108:40461 (size: 5.0 KiB, free: 366.3 MiB)
+25/05/22 10:34:40 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.31.31.108:40461 (size: 32.5 KiB, free: 366.3 MiB)
+25/05/22 10:34:41 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.31.28.10:49168) with ID 1,  ResourceProfileId 0
+25/05/22 10:34:41 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.28.10:45337 with 366.3 MiB RAM, BlockManagerId(1, 172.31.28.10, 45337, None)
+25/05/22 10:34:42 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2889 ms on 172.31.31.108 (executor 0) (1/1)
+25/05/22 10:34:42 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+25/05/22 10:34:42 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 44837
+25/05/22 10:34:42 INFO DAGScheduler: ResultStage 0 (runJob at PythonRDD.scala:181) finished in 3.557 s
+25/05/22 10:34:42 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+25/05/22 10:34:42 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+25/05/22 10:34:42 INFO DAGScheduler: Job 0 finished: runJob at PythonRDD.scala:181, took 3.746488 s
+25/05/22 10:34:42 INFO SparkContext: Starting job: takeOrdered at /home/ubuntu/RDD_actorDirector.py:44
+25/05/22 10:34:42 INFO DAGScheduler: Registering RDD 4 (reduceByKey at /home/ubuntu/RDD_actorDirector.py:30) as input to shuffle 0
+25/05/22 10:34:42 INFO DAGScheduler: Got job 1 (takeOrdered at /home/ubuntu/RDD_actorDirector.py:44) with 19 output partitions
+25/05/22 10:34:42 INFO DAGScheduler: Final stage: ResultStage 2 (takeOrdered at /home/ubuntu/RDD_actorDirector.py:44)
+25/05/22 10:34:42 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+25/05/22 10:34:42 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+25/05/22 10:34:42 INFO DAGScheduler: Submitting ShuffleMapStage 1 (PairwiseRDD[4] at reduceByKey at /home/ubuntu/RDD_actorDirector.py:30), which has no missing parents
+25/05/22 10:34:42 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 14.8 KiB, free 365.9 MiB)
+25/05/22 10:34:42 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 8.8 KiB, free 365.9 MiB)
+25/05/22 10:34:42 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on ip-172-31-28-10.ec2.internal:43131 (size: 8.8 KiB, free: 366.3 MiB)
+25/05/22 10:34:42 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1585
+25/05/22 10:34:42 INFO DAGScheduler: Submitting 19 missing tasks from ShuffleMapStage 1 (PairwiseRDD[4] at reduceByKey at /home/ubuntu/RDD_actorDirector.py:30) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+25/05/22 10:34:42 INFO TaskSchedulerImpl: Adding task set 1.0 with 19 tasks resource profile 0
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (172.31.25.204, executor 2, partition 0, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2) (172.31.28.10, executor 1, partition 1, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 3) (172.31.22.111, executor 3, partition 2, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 3.0 in stage 1.0 (TID 4) (172.31.31.108, executor 0, partition 3, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 4.0 in stage 1.0 (TID 5) (172.31.25.204, executor 2, partition 4, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 5.0 in stage 1.0 (TID 6) (172.31.28.10, executor 1, partition 5, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 6.0 in stage 1.0 (TID 7) (172.31.22.111, executor 3, partition 6, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO TaskSetManager: Starting task 7.0 in stage 1.0 (TID 8) (172.31.31.108, executor 0, partition 7, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:42 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.31.108:40461 (size: 8.8 KiB, free: 366.3 MiB)
+25/05/22 10:34:42 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.22.111:46579 (size: 8.8 KiB, free: 366.3 MiB)
+25/05/22 10:34:42 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.25.204:44647 (size: 8.8 KiB, free: 366.3 MiB)
+25/05/22 10:34:43 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.31.28.10:45337 (size: 8.8 KiB, free: 366.3 MiB)
+25/05/22 10:34:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.31.25.204:44647 (size: 32.5 KiB, free: 366.3 MiB)
+25/05/22 10:34:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.31.22.111:46579 (size: 32.5 KiB, free: 366.3 MiB)
+25/05/22 10:34:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.31.28.10:45337 (size: 32.5 KiB, free: 366.3 MiB)
+25/05/22 10:34:51 INFO TaskSetManager: Starting task 8.0 in stage 1.0 (TID 9) (172.31.31.108, executor 0, partition 8, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:51 INFO TaskSetManager: Finished task 3.0 in stage 1.0 (TID 4) in 8999 ms on 172.31.31.108 (executor 0) (1/19)
+25/05/22 10:34:51 INFO TaskSetManager: Starting task 9.0 in stage 1.0 (TID 10) (172.31.31.108, executor 0, partition 9, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:51 INFO TaskSetManager: Finished task 7.0 in stage 1.0 (TID 8) in 9031 ms on 172.31.31.108 (executor 0) (2/19)
+25/05/22 10:34:53 INFO TaskSetManager: Starting task 10.0 in stage 1.0 (TID 11) (172.31.25.204, executor 2, partition 10, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:53 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 11563 ms on 172.31.25.204 (executor 2) (3/19)
+25/05/22 10:34:53 INFO TaskSetManager: Starting task 11.0 in stage 1.0 (TID 12) (172.31.25.204, executor 2, partition 11, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:54 INFO TaskSetManager: Finished task 4.0 in stage 1.0 (TID 5) in 11608 ms on 172.31.25.204 (executor 2) (4/19)
+25/05/22 10:34:54 INFO TaskSetManager: Starting task 12.0 in stage 1.0 (TID 13) (172.31.22.111, executor 3, partition 12, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:54 INFO TaskSetManager: Starting task 13.0 in stage 1.0 (TID 14) (172.31.22.111, executor 3, partition 13, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:54 INFO TaskSetManager: Finished task 6.0 in stage 1.0 (TID 7) in 11886 ms on 172.31.22.111 (executor 3) (5/19)
+25/05/22 10:34:54 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 3) in 11893 ms on 172.31.22.111 (executor 3) (6/19)
+25/05/22 10:34:54 INFO TaskSetManager: Starting task 14.0 in stage 1.0 (TID 15) (172.31.28.10, executor 1, partition 14, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:54 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 12390 ms on 172.31.28.10 (executor 1) (7/19)
+25/05/22 10:34:55 INFO TaskSetManager: Starting task 15.0 in stage 1.0 (TID 16) (172.31.28.10, executor 1, partition 15, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:55 INFO TaskSetManager: Finished task 5.0 in stage 1.0 (TID 6) in 12691 ms on 172.31.28.10 (executor 1) (8/19)
+25/05/22 10:34:59 INFO TaskSetManager: Starting task 16.0 in stage 1.0 (TID 17) (172.31.31.108, executor 0, partition 16, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:59 INFO TaskSetManager: Finished task 8.0 in stage 1.0 (TID 9) in 8223 ms on 172.31.31.108 (executor 0) (9/19)
+25/05/22 10:34:59 INFO TaskSetManager: Starting task 17.0 in stage 1.0 (TID 18) (172.31.31.108, executor 0, partition 17, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:34:59 INFO TaskSetManager: Finished task 9.0 in stage 1.0 (TID 10) in 8376 ms on 172.31.31.108 (executor 0) (10/19)
+25/05/22 10:35:02 INFO TaskSetManager: Starting task 18.0 in stage 1.0 (TID 19) (172.31.25.204, executor 2, partition 18, PROCESS_LOCAL, 9042 bytes) 
+25/05/22 10:35:02 INFO TaskSetManager: Finished task 10.0 in stage 1.0 (TID 11) in 8513 ms on 172.31.25.204 (executor 2) (11/19)
+25/05/22 10:35:02 INFO TaskSetManager: Finished task 11.0 in stage 1.0 (TID 12) in 8466 ms on 172.31.25.204 (executor 2) (12/19)
+25/05/22 10:35:02 INFO TaskSetManager: Finished task 12.0 in stage 1.0 (TID 13) in 8466 ms on 172.31.22.111 (executor 3) (13/19)
+25/05/22 10:35:02 INFO TaskSetManager: Finished task 13.0 in stage 1.0 (TID 14) in 8522 ms on 172.31.22.111 (executor 3) (14/19)
+25/05/22 10:35:03 INFO TaskSetManager: Finished task 14.0 in stage 1.0 (TID 15) in 8880 ms on 172.31.28.10 (executor 1) (15/19)
+25/05/22 10:35:03 INFO TaskSetManager: Finished task 15.0 in stage 1.0 (TID 16) in 8580 ms on 172.31.28.10 (executor 1) (16/19)
+25/05/22 10:35:04 INFO TaskSetManager: Finished task 18.0 in stage 1.0 (TID 19) in 2526 ms on 172.31.25.204 (executor 2) (17/19)
+25/05/22 10:35:07 INFO TaskSetManager: Finished task 16.0 in stage 1.0 (TID 17) in 8261 ms on 172.31.31.108 (executor 0) (18/19)
+25/05/22 10:35:08 INFO TaskSetManager: Finished task 17.0 in stage 1.0 (TID 18) in 8370 ms on 172.31.31.108 (executor 0) (19/19)
+25/05/22 10:35:08 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+25/05/22 10:35:08 INFO DAGScheduler: ShuffleMapStage 1 (reduceByKey at /home/ubuntu/RDD_actorDirector.py:30) finished in 25.803 s
+25/05/22 10:35:08 INFO DAGScheduler: looking for newly runnable stages
+25/05/22 10:35:08 INFO DAGScheduler: running: Set()
+25/05/22 10:35:08 INFO DAGScheduler: waiting: Set(ResultStage 2)
+25/05/22 10:35:08 INFO DAGScheduler: failed: Set()
+25/05/22 10:35:08 INFO DAGScheduler: Submitting ResultStage 2 (PythonRDD[7] at takeOrdered at /home/ubuntu/RDD_actorDirector.py:44), which has no missing parents
+25/05/22 10:35:08 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 12.7 KiB, free 365.9 MiB)
+25/05/22 10:35:08 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 7.3 KiB, free 365.9 MiB)
+25/05/22 10:35:08 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on ip-172-31-28-10.ec2.internal:43131 (size: 7.3 KiB, free: 366.2 MiB)
+25/05/22 10:35:08 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1585
+25/05/22 10:35:08 INFO DAGScheduler: Submitting 19 missing tasks from ResultStage 2 (PythonRDD[7] at takeOrdered at /home/ubuntu/RDD_actorDirector.py:44) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+25/05/22 10:35:08 INFO TaskSchedulerImpl: Adding task set 2.0 with 19 tasks resource profile 0
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 20) (172.31.22.111, executor 3, partition 0, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 21) (172.31.25.204, executor 2, partition 1, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 2.0 in stage 2.0 (TID 22) (172.31.28.10, executor 1, partition 2, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 3.0 in stage 2.0 (TID 23) (172.31.31.108, executor 0, partition 3, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 4.0 in stage 2.0 (TID 24) (172.31.22.111, executor 3, partition 4, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 5.0 in stage 2.0 (TID 25) (172.31.25.204, executor 2, partition 5, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 6.0 in stage 2.0 (TID 26) (172.31.28.10, executor 1, partition 6, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO TaskSetManager: Starting task 7.0 in stage 2.0 (TID 27) (172.31.31.108, executor 0, partition 7, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:08 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.31.108:40461 (size: 7.3 KiB, free: 366.2 MiB)
+25/05/22 10:35:08 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.22.111:46579 (size: 7.3 KiB, free: 366.3 MiB)
+25/05/22 10:35:08 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.25.204:44647 (size: 7.3 KiB, free: 366.3 MiB)
+25/05/22 10:35:08 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.31.28.10:45337 (size: 7.3 KiB, free: 366.3 MiB)
+25/05/22 10:35:08 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.31.31.108:48348
+25/05/22 10:35:08 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.31.25.204:57772
+25/05/22 10:35:08 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.31.22.111:47732
+25/05/22 10:35:08 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.31.28.10:49168
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 8.0 in stage 2.0 (TID 28) (172.31.31.108, executor 0, partition 8, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:10 INFO TaskSetManager: Finished task 7.0 in stage 2.0 (TID 27) in 2412 ms on 172.31.31.108 (executor 0) (1/19)
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 9.0 in stage 2.0 (TID 29) (172.31.31.108, executor 0, partition 9, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:10 INFO TaskSetManager: Finished task 3.0 in stage 2.0 (TID 23) in 2534 ms on 172.31.31.108 (executor 0) (2/19)
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 10.0 in stage 2.0 (TID 30) (172.31.25.204, executor 2, partition 10, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:10 INFO TaskSetManager: Finished task 5.0 in stage 2.0 (TID 25) in 2605 ms on 172.31.25.204 (executor 2) (3/19)
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 11.0 in stage 2.0 (TID 31) (172.31.25.204, executor 2, partition 11, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:10 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 21) in 2627 ms on 172.31.25.204 (executor 2) (4/19)
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 12.0 in stage 2.0 (TID 32) (172.31.22.111, executor 3, partition 12, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:10 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 20) in 2787 ms on 172.31.22.111 (executor 3) (5/19)
+25/05/22 10:35:10 INFO TaskSetManager: Starting task 13.0 in stage 2.0 (TID 33) (172.31.22.111, executor 3, partition 13, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:11 INFO TaskSetManager: Finished task 4.0 in stage 2.0 (TID 24) in 2797 ms on 172.31.22.111 (executor 3) (6/19)
+25/05/22 10:35:11 INFO TaskSetManager: Starting task 14.0 in stage 2.0 (TID 34) (172.31.28.10, executor 1, partition 14, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:11 INFO TaskSetManager: Finished task 2.0 in stage 2.0 (TID 22) in 3183 ms on 172.31.28.10 (executor 1) (7/19)
+25/05/22 10:35:11 INFO TaskSetManager: Starting task 15.0 in stage 2.0 (TID 35) (172.31.28.10, executor 1, partition 15, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:11 INFO TaskSetManager: Finished task 6.0 in stage 2.0 (TID 26) in 3397 ms on 172.31.28.10 (executor 1) (8/19)
+25/05/22 10:35:12 INFO TaskSetManager: Starting task 16.0 in stage 2.0 (TID 36) (172.31.31.108, executor 0, partition 16, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:12 INFO TaskSetManager: Finished task 8.0 in stage 2.0 (TID 28) in 2154 ms on 172.31.31.108 (executor 0) (9/19)
+25/05/22 10:35:12 INFO TaskSetManager: Starting task 17.0 in stage 2.0 (TID 37) (172.31.25.204, executor 2, partition 17, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:12 INFO TaskSetManager: Finished task 10.0 in stage 2.0 (TID 30) in 2124 ms on 172.31.25.204 (executor 2) (10/19)
+25/05/22 10:35:12 INFO TaskSetManager: Finished task 9.0 in stage 2.0 (TID 29) in 2226 ms on 172.31.31.108 (executor 0) (11/19)
+25/05/22 10:35:12 INFO TaskSetManager: Starting task 18.0 in stage 2.0 (TID 38) (172.31.31.108, executor 0, partition 18, NODE_LOCAL, 8821 bytes) 
+25/05/22 10:35:13 INFO TaskSetManager: Finished task 11.0 in stage 2.0 (TID 31) in 2226 ms on 172.31.25.204 (executor 2) (12/19)
+25/05/22 10:35:13 INFO TaskSetManager: Finished task 13.0 in stage 2.0 (TID 33) in 2300 ms on 172.31.22.111 (executor 3) (13/19)
+25/05/22 10:35:13 INFO TaskSetManager: Finished task 12.0 in stage 2.0 (TID 32) in 2405 ms on 172.31.22.111 (executor 3) (14/19)
+25/05/22 10:35:14 INFO TaskSetManager: Finished task 14.0 in stage 2.0 (TID 34) in 2666 ms on 172.31.28.10 (executor 1) (15/19)
+25/05/22 10:35:14 INFO TaskSetManager: Finished task 15.0 in stage 2.0 (TID 35) in 2468 ms on 172.31.28.10 (executor 1) (16/19)
+25/05/22 10:35:14 INFO TaskSetManager: Finished task 17.0 in stage 2.0 (TID 37) in 1273 ms on 172.31.25.204 (executor 2) (17/19)
+25/05/22 10:35:14 INFO TaskSetManager: Finished task 16.0 in stage 2.0 (TID 36) in 2214 ms on 172.31.31.108 (executor 0) (18/19)
+25/05/22 10:35:15 INFO TaskSetManager: Finished task 18.0 in stage 2.0 (TID 38) in 2054 ms on 172.31.31.108 (executor 0) (19/19)
+25/05/22 10:35:15 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+25/05/22 10:35:15 INFO DAGScheduler: ResultStage 2 (takeOrdered at /home/ubuntu/RDD_actorDirector.py:44) finished in 6.832 s
+25/05/22 10:35:15 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+25/05/22 10:35:15 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+25/05/22 10:35:15 INFO DAGScheduler: Job 1 finished: takeOrdered at /home/ubuntu/RDD_actorDirector.py:44, took 32.708196 s
+[('Hugues Le Bars', 'Olivier Jean-Marie', 1844, 7.23644251626898, 6.1, 8.8), ('Don Messick', 'Joseph Barbera', 1760, 6.677272727272729, 3.7, 8.9), ('Don Messick', 'William Hanna', 1752, 6.674657534246576, 3.7, 8.9), ('Rob Dyrdek', 'Michael Simon', 1704, 7.439906103286386, 5.5, 8.5), ('Daws Butler', 'Joseph Barbera', 1444, 6.498891966759004, 4.2, 8.7), ('Dan Castellaneta', 'Mike B. Anderson', 1440, 6.65, 4.0, 9.2), ('Daws Butler', 'William Hanna', 1360, 6.4399999999999995, 4.2, 8.7), ('Ayaz Ahmed', 'Anmol Mahajan', 1348, 9.701483679525222, 8.5, 10.0), ('Ayaz Ahmed', 'Ashima Chibber', 1348, 9.701483679525222, 8.5, 10.0), ('Mel Blanc', 'Chuck Jones', 1328, 6.928012048192773, 4.5, 8.6), ('Mel Blanc', 'Friz Freleng', 1268, 6.862460567823343, 4.9, 8.3), ('Dishank Arora', 'Anmol Mahajan', 1268, 9.70031545741325, 8.5, 10.0), ('Dishank Arora', 'Ashima Chibber', 1268, 9.70031545741325, 8.5, 10.0), ('Mehmet Akan', 'Yalçin Yelence', 1208, 7.003973509933775, 5.7, 7.9), ('Mel Blanc', 'Joseph Barbera', 1184, 6.602027027027029, 1.0, 8.9), ('Mel Blanc', 'William Hanna', 1172, 6.591808873720136, 1.0, 8.9), ('Scott Grimes', 'Ron Hughart', 1172, 7.2600682593856645, 3.9, 8.8), ('Seth MacFarlane', 'Ron Hughart', 1164, 7.26254295532646, 3.9, 8.8), ('Jack Mercer', 'Seymour Kneitel', 1148, 6.218815331010452, 3.9, 7.7), ('Jonathan Frid', 'Lela Swift', 1088, 7.480514705882353, 6.6, 8.3)]
+25/05/22 10:35:15 INFO SparkContext: Invoking stop() from shutdown hook
+25/05/22 10:35:15 INFO SparkContext: SparkContext is stopping with exitCode 0.
+25/05/22 10:35:15 INFO SparkUI: Stopped Spark web UI at http://ip-172-31-28-10.ec2.internal:4040
+25/05/22 10:35:15 INFO StandaloneSchedulerBackend: Shutting down all executors
+25/05/22 10:35:15 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Asking each executor to shut down
+25/05/22 10:35:15 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/05/22 10:35:15 INFO MemoryStore: MemoryStore cleared
+25/05/22 10:35:15 INFO BlockManager: BlockManager stopped
+25/05/22 10:35:15 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/05/22 10:35:15 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/05/22 10:35:15 INFO SparkContext: Successfully stopped SparkContext
+25/05/22 10:35:15 INFO ShutdownHookManager: Shutdown hook called
+25/05/22 10:35:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-1fba5ace-b713-4fdf-b85f-0995d2634a51/pyspark-ada67591-a2db-46fd-a52f-b351762ed5ae
+25/05/22 10:35:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-1fba5ace-b713-4fdf-b85f-0995d2634a51
+25/05/22 10:35:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-a09c304d-4932-431e-809d-ee4fe39bc195
+	Command being timed: "/home/ubuntu/spark-3.5.5-bin-hadoop3/bin/spark-submit --master=spark://ip-172-31-28-10.ec2.internal:7077 RDD_actorDirector.py infoActorsX4.csv"
+	User time (seconds): 15.40
+	System time (seconds): 0.68
+	Percent of CPU this job got: 35%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 456860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134837
+	Voluntary context switches: 8957
+	Involuntary context switches: 7313
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,1010 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:    896
+
+ 2D process grid (NXP x NZP) =    56 x   16
+
+ Use the default load factors
+ Total number of threads:    896  (  1.0 threads/process)
+
+ Calculated speedup =    816.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                   143.16
+ Total processes =                      896
+ Total threads   =                      896
+ Mop/s total     =               1751808.01
+ Mop/s/thread    =                  1955.14
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:    448
+
+ 2D process grid (NXP x NZP) =    28 x   16
+
+ Use the default load factors
+ Total number of threads:    896  (  2.0 threads/process)
+
+ Calculated speedup =    870.40
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                   108.91
+ Total processes =                      448
+ Total threads   =                      896
+ Mop/s total     =               2302629.05
+ Mop/s/thread    =                  2569.90
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:    112
+
+ 2D process grid (NXP x NZP) =     7 x   16
+
+ Use the default load factors
+ Total number of threads:    896  (  8.0 threads/process)
+
+ Calculated speedup =    885.15
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                    92.93
+ Total processes =                      112
+ Total threads   =                      896
+ Mop/s total     =               2698622.44
+ Mop/s/thread    =                  3011.86
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:     64
+
+ 2D process grid (NXP x NZP) =     4 x   16
+
+ Use the default load factors
+ Total number of threads:    896  ( 14.0 threads/process)
+
+ Calculated speedup =    896.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                    98.54
+ Total processes =                       64
+ Total threads   =                      896
+ Mop/s total     =               2545033.33
+ Mop/s/thread    =                  2840.44
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:     16
+
+ Use the default load factors
+ Total number of threads:    896  ( 56.0 threads/process)
+
+ Calculated speedup =    896.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                   125.02
+ Total processes =                       16
+ Total threads   =                      896
+ Mop/s total     =               2005893.38
+ Mop/s/thread    =                  2238.72
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.4-MZ MPI+OpenMP) - LU-MZ Benchmark
+
+ Reading from input file inputlu-mz.data
+ Number of zones:   4 x   4
+ Total mesh size:  1632 x  1216 x  34
+ Iterations: ***    dt:   1.000000
+ Number of active processes:      8
+
+ Use the default load factors
+ Total number of threads:    896  (112.0 threads/process)
+
+ Calculated speedup =    896.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+ Time step 1020
+ Time step 1040
+ Time step 1060
+ Time step 1080
+ Time step 1100
+ Time step 1120
+ Time step 1140
+ Time step 1160
+ Time step 1180
+ Time step 1200
+ Time step 1220
+ Time step 1240
+ Time step 1260
+ Time step 1280
+ Time step 1300
+ Time step 1320
+ Time step 1340
+ Time step 1360
+ Time step 1380
+ Time step 1400
+ Time step 1420
+ Time step 1440
+ Time step 1460
+ Time step 1480
+ Time step 1500
+ Time step 1520
+ Time step 1540
+ Time step 1560
+ Time step 1580
+ Time step 1600
+ Time step 1620
+ Time step 1640
+ Time step 1660
+ Time step 1680
+ Time step 1700
+ Time step 1720
+ Time step 1740
+ Time step 1760
+ Time step 1780
+ Time step 1800
+ Time step 1820
+ Time step 1840
+ Time step 1860
+ Time step 1880
+ Time step 1900
+ Time step 1920
+ Time step 1940
+ Time step 1960
+ Time step 1980
+ Time step 2000
+
+ Verification being performed for class D
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   300
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.6121247590639E+05 0.3282253166388E+06 0.8135047091028E+00
+ FAILURE:  2   0.5222164685604E+04 0.3490781637713E+05 0.8504012789232E+00
+ FAILURE:  3   0.1491633672984E+05 0.8610311978292E+05 0.8267619481449E+00
+ FAILURE:  4   0.1203424978722E+05 0.7004896022603E+05 0.8282023066669E+00
+ FAILURE:  5   0.1017956366875E+06 0.4546838584391E+06 0.7761177688671E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.4125411175293E+04 0.6620775619126E+04 0.3768991108268E+00
+ FAILURE:  2   0.2905923756879E+03 0.5229798207352E+03 0.4443526037403E+00
+ FAILURE:  3   0.9964958000115E+03 0.1620218261697E+04 0.3849619995223E+00
+ FAILURE:  4   0.8682011422568E+03 0.1404783445006E+04 0.3819679856399E+00
+ FAILURE:  5   0.8440539134311E+04 0.1222629805121E+05 0.3096406533721E+00
+ Comparison of surface integral
+ FAILURE:      0.1341850932402E+05 0.2059421629621E+05 0.3484331168022E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        D
+ Size            =           1632x 1216x 34
+ Iterations      =                     2000
+ Time in seconds =                   212.34
+ Total processes =                        8
+ Total threads   =                      896
+ Mop/s total     =               1181019.43
+ Mop/s/thread    =                  1318.10
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              03 Mar 2025
+
+ Compile options:
+    FC           = mpif90
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
